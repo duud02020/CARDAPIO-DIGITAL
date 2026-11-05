@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220">
+  <defs>
+    <g id="flower">
+      <path d="M0-8C-12-23 9-25 8-10C26-15 29 5 12 6C20 21 1 29-5 12C-19 24-29 5-13 0C-23-14-8-21 0-8Z" fill="#c8070c"/>
+      <path d="M0 0l-4-8m4 8 5-8m-5 8 9 2M0 0l-1 9m1-9-8 4" stroke="#fff4e8" stroke-width="1.4" stroke-linecap="round"/>
+      <circle r="2.4" fill="#fff4e8"/>
+    </g>
+  </defs>
+  <g fill="#781f15">
+    <path d="M-10 92C67 85 109 42 182 51c43 6 78 31 132 30-48 7-90-18-133-24C115 51 70 98-10 109Z"/>
+    <path d="M3 95c62 14 75 51 123 52 28 1 57 12 87 38-32-22-63-31-87-30C69 156 47 117-6 108Z"/>
+    <path d="M84 72c17-9 21-37 40-56-11 21-13 40-26 51Zm52-17c24-3 46-20 70-28-19 10-34 24-53 29Zm79 8c20-9 44-18 51-34-5 17-23 29-39 37ZM52 123c-9 19-15 38-38 55 17-17 20-36 29-53Zm67 29c15 3 26 27 40 41-20-11-29-28-49-41Z"/>
+  </g>
+  <g>
+    <use href="#flower" transform="translate(58 75) rotate(18) scale(.77)"/>
+    <use href="#flower" transform="translate(111 33) rotate(-8) scale(.46)"/>
+    <use href="#flower" transform="translate(160 55) rotate(9) scale(1.06)"/>
+    <use href="#flower" transform="translate(211 27) rotate(24) scale(.65)"/>
+    <use href="#flower" transform="translate(258 45) rotate(9) scale(.47)"/>
+    <use href="#flower" transform="translate(86 131) rotate(-14) scale(1.13)"/>
+    <use href="#flower" transform="translate(27 153) rotate(8) scale(.58)"/>
+    <use href="#flower" transform="translate(135 154) rotate(-18) scale(.69)"/>
+    <use href="#flower" transform="translate(180 168) rotate(13) scale(.42)"/>
+    <use href="#flower" transform="translate(289 80) scale(.31)"/>
+  </g>
+</svg>
