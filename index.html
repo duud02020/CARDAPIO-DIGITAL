@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OISHI — Cardápio Digital Japonês Premium</title>
+  <meta name="description" content="Explore o cardápio digital do restaurante japonês OISHI. Lámens artesanais, porções tradicionais e especialidades da culinária japonesa.">
+  <meta name="theme-color" content="#F7F3EE">
+
+  <!-- Open Graph / Meta Compartilhamento -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="OISHI — Cardápio Digital Japonês Premium">
+  <meta property="og:description" content="Descubra nossos lámens, porções e pratos quentes tradicionais com preparo artesanal.">
+  <meta property="og:image" content="/images/oishi-logo-original.png">
+
+  <!-- Google Fonts: Cinzel para sofisticação editorial e Plus Jakarta Sans para leitura clara -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" href="/images/oishi-logo-original.png">
+  <link rel="stylesheet" href="./src/styles/main.css">
+</head>
+<body>
+
+  <!-- ==================== HEADER OFICIAL ==================== -->
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="#inicio" class="brand-link" aria-label="OISHI Restaurante - Início">
+        <img 
+          src="/images/oishi-logo-original.png" 
+          alt="Logotipo OISHI Japonês Oficial" 
+          class="brand-logo-img"
+          width="48"
+          height="48"
+        >
+        <div class="brand-text-wrap">
+          <span class="brand-name">OISHI</span>
+          <span class="brand-tagline">Cardápio Digital</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="nav-desktop" aria-label="Navegação Principal">
+        <a href="#inicio" class="nav-link">Início</a>
+        <a href="#lamen" class="nav-link">Lámen</a>
+        <a href="#cardapio" class="nav-link">Cardápio</a>
+        <a href="#porcoes" class="nav-link">Porções</a>
+        <a href="#sobre" class="nav-link">Sobre</a>
+        <a href="#cardapio" class="nav-btn-explore">
+          <span>Ver Pratos</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+        </a>
+      </nav>
+
+      <!-- Mobile Hamburger Button -->
+      <button 
+        class="mobile-menu-toggle" 
+        id="mobile-menu-btn" 
+        aria-label="Abrir menu de navegação" 
+        aria-expanded="false" 
+        aria-controls="mobile-nav-panel"
+      >
+        <span class="hamburger-line"></span>
+      </button>
+    </div>
+
+    <!-- Mobile Navigation Panel -->
+    <div class="mobile-nav-panel" id="mobile-nav-panel" role="region" aria-label="Menu móvel">
+      <a href="#inicio" class="mobile-nav-link">Início <span>&rarr;</span></a>
+      <a href="#lamen" class="mobile-nav-link">Lámen OISHI <span>&rarr;</span></a>
+      <a href="#cardapio" class="mobile-nav-link">Cardápio Completo <span>&rarr;</span></a>
+      <a href="#porcoes" class="mobile-nav-link">Porções & Entradas <span>&rarr;</span></a>
+      <a href="#sobre" class="mobile-nav-link">Sobre a Casa <span>&rarr;</span></a>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- ==================== HERO PRINCIPAL ==================== -->
+    <section class="hero-section" id="inicio" aria-labelledby="hero-heading">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-tag">
+            <span class="hero-tag-dot"></span>
+            <span>Culinária Japonesa Tradicional</span>
+          </div>
+          <h1 class="hero-title" id="hero-heading">
+            OISHI — O sabor artesanal da culinária <span class="text-accent">japonesa.</span>
+          </h1>
+          <p class="hero-description">
+            Descubra nosso cardápio de lámens, porções e especialidades japonesas, com o cuidado artesanal que faz parte da nossa identidade.
+          </p>
+          <div class="hero-actions">
+            <a href="#cardapio" class="btn-primary">
+              <span>Explorar Cardápio</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+            </a>
+            <a href="#lamen" class="btn-secondary">
+              <span>Conhecer os Lámens</span>
+            </a>
+          </div>
+
+          <div class="hero-badges-row">
+            <div class="hero-badge-item">
+              <span class="hero-badge-num">32</span>
+              <span class="hero-badge-lbl">Pratos e Especialidades</span>
+            </div>
+            <div class="hero-badge-item">
+              <span class="hero-badge-num">4</span>
+              <span class="hero-badge-lbl">Opções de Lámen</span>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Hero Showcase Visual -->
+        <div class="hero-visual-card">
+          <div class="hero-image-wrap">
+            <img 
+              src="https://images.unsplash.com/photo-1569718212165-3a8278d5f624?q=80&w=1000&auto=format&fit=crop" 
+              alt="Tigela artesanal de Lámen japonês fumegante com chashu, ovo marinado e alga nori" 
+              class="hero-ramen-img"
+              width="600"
+              height="480"
+              loading="eager"
+            >
+            <div class="hero-seal-badge">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <span>Foto ilustrativa</span>
+            </div>
+          </div>
+          <div class="hero-caption-card">
+            <div>
+              <div class="hero-caption-title">Lámen</div>
+              <div class="hero-caption-sub">Conheça os quatro sabores do cardápio</div>
+            </div>
+            <div class="hero-caption-price">A partir de R$ 60,00</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== APRESENTAÇÃO EDITORIAL ==================== -->
+    <section class="presentation-section" id="sobre" aria-labelledby="pres-heading">
+      <div class="container presentation-grid">
+        <div class="presentation-visual">
+          <img 
+            src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=900&auto=format&fit=crop" 
+            alt="Ambiente de restaurante em fotografia ilustrativa" 
+            style="border-radius: var(--radius-md); border: 1px solid var(--color-border); box-shadow: var(--shadow-md);"
+            width="550"
+            height="420"
+            loading="lazy"
+          >
+          <small class="image-credit">Foto ilustrativa</small>
+        </div>
+        <div class="presentation-content">
+          <span class="section-pretitle">Filosofia Gastronômica</span>
+          <h2 class="section-title" id="pres-heading">Artesanal em cada detalhe.</h2>
+          <div class="presentation-quote-box">
+            "No OISHI, o preparo artesanal valoriza os sabores da culinária japonesa. Explore nossas especialidades e descubra as diferentes combinações que fazem parte do cardápio."
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== DESTAQUE LÁMEN ==================== -->
+    <section class="ramen-section" id="lamen" aria-labelledby="ramen-heading">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-pretitle">Destaque Principal</span>
+          <h2 class="section-title" id="ramen-heading">Lámen OISHI</h2>
+          <p class="section-desc">Sabores marcantes e preparo artesanal. Conheça as quatro composições clássicas de caldos servidas em nossas tigelas.</p>
+        </header>
+
+        <!-- Dynamic Ramen Cards Grid -->
+        <div class="ramen-grid" id="ramen-grid">
+          <!-- Populated by main.ts -->
+        </div>
+
+        <!-- Ramen Anatomia / Explicação da Tigela -->
+        <div class="ramen-explainer-banner">
+          <div>
+            <div class="explainer-tag">Composição da Tigela</div>
+            <h3 class="explainer-title">Anatomia de uma tigela de lámen</h3>
+            <p style="font-size: 0.92rem; color: var(--color-text-muted); line-height: 1.6;">
+              Ingredientes ilustrados no cardápio físico. Consulte os detalhes de cada opção.
+            </p>
+          </div>
+          <div class="ramen-ingredients-list">
+            <div class="ingredient-item"><span class="ingredient-bullet"></span><span>Massa</span></div>
+            <div class="ingredient-item"><span class="ingredient-bullet"></span><span>Chashu (carne de porco assada)</span></div>
+            <div class="ingredient-item"><span class="ingredient-bullet"></span><span>Ovo</span></div>
+            <div class="ingredient-item"><span class="ingredient-bullet"></span><span>Alga nori</span></div>
+            <div class="ingredient-item"><span class="ingredient-bullet"></span><span>Naruto</span></div>
+            <div class="ingredient-item"><span class="ingredient-bullet"></span><span>Broto de feijão & Alho-poró</span></div>
+            <div class="ingredient-item"><span class="ingredient-bullet"></span><span>Repolho e cebola na manteiga</span></div>
+            <div class="ingredient-item"><span class="ingredient-bullet"></span><span>Cebolinha</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CARDÁPIO DIGITAL COMPLETO ==================== -->
+    <section class="menu-section" id="cardapio" aria-labelledby="menu-heading">
+      <div class="container">
+        <header class="section-header" id="porcoes">
+          <span class="section-pretitle">Consulta Instantânea</span>
+          <h2 class="section-title" id="menu-heading">Nosso Cardápio</h2>
+          <p class="section-desc">Explore nossas especialidades, conheça os ingredientes e encontre seus sabores favoritos.</p>
+        </header>
+
+        <!-- Filtros & Barra de Busca Instantânea -->
+        <div class="menu-controls">
+          <div class="search-input-wrap">
+            <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+            <input 
+              type="search" 
+              class="search-input" 
+              id="search-input" 
+              placeholder="Buscar por prato, código (ex: 200, 250) ou ingrediente..." 
+              aria-label="Pesquisar itens do cardápio"
+            >
+            <button class="search-clear-btn" id="search-clear" aria-label="Limpar pesquisa">&times;</button>
+          </div>
+
+          <div class="filter-tabs-row" id="filter-tabs" role="group" aria-label="Filtrar pratos por categoria">
+            <!-- Populated by main.ts -->
+          </div>
+        </div>
+
+        <div class="menu-results-summary" id="results-summary" role="status">
+          <!-- Summary info rendered dynamically -->
+        </div>
+
+        <!-- Grid de Itens do Cardápio -->
+        <div class="menu-grid" id="menu-grid">
+          <!-- Populated by main.ts -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SEÇÃO DIFERENCIAL ARTESANAL ==================== -->
+    <section class="craft-section" aria-labelledby="craft-heading">
+      <div class="container">
+        <div class="craft-card-box">
+          <img 
+            src="/images/oishi-logo-original.png" 
+            alt="" 
+            class="craft-flower-icon"
+            width="44"
+            height="44"
+          >
+          <span class="section-pretitle">Dedicação Culinária</span>
+          <h2 class="craft-title" id="craft-heading">Feito com cuidado. Servido com sabor.</h2>
+          <p class="craft-text">
+            O preparo artesanal é parte da essência do OISHI. Cada prato do nosso cardápio representa a dedicação aos sabores e à experiência gastronômica.
+          </p>
+          <div class="craft-notice">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+            <span>Cardápio digital informativo. Atendimento e pedidos realizados diretamente com nossa equipe.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top-grid">
+        <div class="footer-brand-wrap">
+          <a href="#inicio" class="brand-link">
+            <img 
+              src="/images/oishi-logo-original.png" 
+              alt="OISHI Logo" 
+              class="brand-logo-img"
+              width="44"
+              height="44"
+            >
+            <div class="brand-text-wrap">
+              <span class="brand-name">OISHI</span>
+              <span class="brand-tagline">Restaurante Japonês</span>
+            </div>
+          </a>
+          <p class="footer-desc">
+            Tradição, dedicação e sabor artesanal. Uma experiência genuína da culinária japonesa em cada prato servido.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Navegação</h4>
+          <ul class="footer-links-list">
+            <li><a href="#inicio" class="footer-link">Início</a></li>
+            <li><a href="#lamen" class="footer-link">Lámen OISHI</a></li>
+            <li><a href="#cardapio" class="footer-link">Cardápio Digital</a></li>
+            <li><a href="#porcoes" class="footer-link">Porções & Entradas</a></li>
+            <li><a href="#sobre" class="footer-link">Sobre o Preparo</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Informações</h4>
+          <div class="footer-notice-box">
+            <strong>Cardápio Digital Oficial</strong><br>
+            Consulte a equipe da casa para disponibilidade de ingredientes do dia e recomendações do chef.
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom-row">
+        <div>
+          &copy; 2026 OISHI Restaurante Japonês. Todos os direitos reservados.
+        </div>
+        <div class="footer-nexora-credit">
+          <span>Desenvolvido com excelência por</span>
+          <span class="footer-nexora-badge">Nexora Digital</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== MODAL DE DETALHES ACESSÍVEL ==================== -->
+  <div 
+    class="modal-overlay" 
+    id="item-modal-overlay" inert 
+    role="dialog" 
+    aria-modal="true" 
+    aria-labelledby="modal-dish-title" 
+    tabindex="-1"
+  >
+    <div class="modal-container">
+      <div class="modal-header-bar">
+        <span style="font-size:0.8rem; font-weight:700; color:var(--color-text-muted); text-transform:uppercase; letter-spacing:0.05em;">Detalhes do Prato</span>
+        <button class="modal-close-btn" id="modal-close-btn" aria-label="Fechar detalhes do prato">&times;</button>
+      </div>
+      <div class="modal-body" id="modal-dynamic-content">
+        <!-- Rendered dynamically by main.ts -->
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="./src/main.ts"></script>
+</body>
+</html>
