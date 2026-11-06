@@ -180,6 +180,7 @@ export const MENU_ITEMS = [
     code: '212',
     name: 'Ebi Furai',
     category: 'porcoes',
+    image: 'images/pratos/212-ebi-furai.webp',
     price: 85.00,
     description: 'Camarão-rosa crocante.'
   },
@@ -187,6 +188,7 @@ export const MENU_ITEMS = [
     code: '213',
     name: 'Ebi Tempurá',
     category: 'porcoes',
+    image: 'images/pratos/213-ebi-tempura.webp',
     price: 85.00,
     description: 'Camarão-rosa empanado.'
   },
@@ -194,6 +196,7 @@ export const MENU_ITEMS = [
     code: '220',
     name: 'Ebi Mayô',
     category: 'porcoes',
+    image: 'images/pratos/220-ebi-mayo.webp',
     price: 87.00,
     description: 'Camarão empanado com maionese e ovas tobiko.'
   },
@@ -201,6 +204,7 @@ export const MENU_ITEMS = [
     code: '242',
     name: 'Tempurá Misto',
     category: 'porcoes',
+    image: 'images/pratos/242-tempura-misto.webp',
     price: 83.00,
     description: 'Camarão e legumes empanados em massa leve.'
   },
@@ -208,6 +212,7 @@ export const MENU_ITEMS = [
     code: '206',
     name: 'Shiitake',
     category: 'porcoes',
+    image: 'images/pratos/206-shiitake.webp',
     price: 40.00,
     description: 'Cogumelo com creme e farofa de alho.'
   },
@@ -215,6 +220,7 @@ export const MENU_ITEMS = [
     code: '207',
     name: 'Shimeji',
     category: 'porcoes',
+    image: 'images/pratos/207-shimeji.webp',
     price: 40.00,
     description: 'Cogumelo com creme e farofa de alho.'
   },
@@ -222,6 +228,7 @@ export const MENU_ITEMS = [
     code: '226',
     name: 'Ebi to Shiitake',
     category: 'porcoes',
+    image: 'images/pratos/226-ebi-to-shiitake.webp',
     price: 60.00,
     description: 'Cogumelo cremoso e camarão.'
   },
@@ -229,6 +236,7 @@ export const MENU_ITEMS = [
     code: '225',
     name: 'Ebi to Shimeji',
     category: 'porcoes',
+    image: 'images/pratos/225-ebi-to-shimeji.webp',
     price: 60.00,
     description: 'Cogumelo cremoso e camarão.'
   },
