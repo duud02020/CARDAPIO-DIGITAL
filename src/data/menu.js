@@ -11,6 +11,7 @@ export const MENU_ITEMS = [
     code: '250',
     name: 'Shoyu',
     category: 'lamen',
+    image: 'images/pratos/250-shoyu.webp',
     price: 60.00,
     description: 'Caldo de frango com molho de soja. Mais suave.'
   },
@@ -18,6 +19,7 @@ export const MENU_ITEMS = [
     code: '251',
     name: 'Missô',
     category: 'lamen',
+    image: 'images/pratos/251-misso.webp',
     price: 62.00,
     description: 'Caldo de porco com pasta de soja fermentada. Mais encorpado.'
   },
@@ -25,6 +27,7 @@ export const MENU_ITEMS = [
     code: '252',
     name: 'Karamissô',
     category: 'lamen',
+    image: 'images/pratos/252-karamisso.webp',
     price: 64.00,
     description: 'Caldo de porco com pimenta. Encorpado e mais picante.'
   },
@@ -32,6 +35,7 @@ export const MENU_ITEMS = [
     code: '350',
     name: 'Karê',
     category: 'lamen',
+    image: 'images/pratos/350-kare.webp',
     price: 64.00,
     description: 'Caldo de porco com curry japonês e tonkatsu (lombo empanado). Encorpado e mais condimentado.'
   },
@@ -41,6 +45,7 @@ export const MENU_ITEMS = [
     code: '109',
     name: 'Otoshi',
     category: 'porcoes',
+    image: 'images/pratos/109-otoshi.webp',
     price: 26.00,
     description: 'Porção de 3 conservas.'
   },
@@ -48,6 +53,7 @@ export const MENU_ITEMS = [
     code: '200',
     name: 'Guioza Suíno com Nirá',
     category: 'porcoes',
+    image: 'images/pratos/200-guioza-suino-nira.webp',
     price: 36.00,
     description: '6 unidades, fritas.'
   },
@@ -55,6 +61,7 @@ export const MENU_ITEMS = [
     code: '201',
     name: 'Guioza de Legumes',
     category: 'porcoes',
+    image: 'images/pratos/201-guioza-legumes.webp',
     price: 34.00,
     description: '6 unidades, fritas.'
   },
@@ -62,6 +69,7 @@ export const MENU_ITEMS = [
     code: '208',
     name: 'Edamame',
     category: 'porcoes',
+    image: 'images/pratos/208-edamame.webp',
     price: 26.00,
     description: 'Vagem de soja no vapor.'
   },
@@ -69,6 +77,7 @@ export const MENU_ITEMS = [
     code: '209',
     name: 'Spicy Edamame',
     category: 'porcoes',
+    image: 'images/pratos/209-spicy-edamame.webp',
     price: 32.00,
     description: 'Soja apimentada.'
   },
@@ -76,6 +85,7 @@ export const MENU_ITEMS = [
     code: '224',
     name: 'Nattô',
     category: 'porcoes',
+    image: 'images/pratos/224-natto.webp',
     price: 30.00,
     description: 'Soja fermentada.'
   },
@@ -83,6 +93,7 @@ export const MENU_ITEMS = [
     code: '215',
     name: 'Nassu no Missô',
     category: 'porcoes',
+    image: 'images/pratos/215-nassu-no-misso.webp',
     price: 30.00,
     description: 'Berinjela, katsuobushi.'
   },
@@ -90,6 +101,7 @@ export const MENU_ITEMS = [
     code: '227',
     name: 'Bêkon',
     category: 'porcoes',
+    image: 'images/pratos/227-bekon.webp',
     price: 42.00,
     description: 'Torresmo carnudo com molho de missô.'
   },
@@ -97,6 +109,7 @@ export const MENU_ITEMS = [
     code: '205',
     name: 'Onigiri',
     category: 'porcoes',
+    image: 'images/pratos/205-onigiri.webp',
     price: 18.00,
     description: 'Bolinho de arroz cozido, unidade.',
     fillings: [
@@ -111,6 +124,7 @@ export const MENU_ITEMS = [
     code: '204',
     name: 'Missoshiro',
     category: 'porcoes',
+    image: 'images/pratos/204-missoshiro.webp',
     price: 17.00,
     description: 'Sopa de soja.'
   },
@@ -118,6 +132,7 @@ export const MENU_ITEMS = [
     code: '222',
     name: 'Shiro Gohan',
     category: 'porcoes',
+    image: 'images/pratos/222-shiro-gohan.webp',
     price: 17.00,
     description: 'Arroz japonês cozido.'
   },
@@ -125,6 +140,7 @@ export const MENU_ITEMS = [
     code: '211',
     name: 'Karaage',
     category: 'porcoes',
+    image: 'images/pratos/211-karaage.webp',
     price: 40.00,
     description: 'Sobrecoxa frita (200 g).'
   },
@@ -132,6 +148,7 @@ export const MENU_ITEMS = [
     code: '229',
     name: 'Piri Kara Karaage',
     category: 'porcoes',
+    image: 'images/pratos/229-piri-kara-karaage.webp',
     price: 42.00,
     description: 'Frango frito picante.'
   },
@@ -139,6 +156,7 @@ export const MENU_ITEMS = [
     code: '231',
     name: 'Tebasaki',
     category: 'porcoes',
+    image: 'images/pratos/231-tebasaki.webp',
     price: 38.00,
     description: 'Meio da asa com tarê, 6 unidades.'
   },
@@ -146,6 +164,7 @@ export const MENU_ITEMS = [
     code: '228',
     name: 'Piri Kara Tebasaki',
     category: 'porcoes',
+    image: 'images/pratos/228-piri-kara-tebasaki.webp',
     price: 44.00,
     description: 'Meio da asa picante.'
   },
@@ -153,6 +172,7 @@ export const MENU_ITEMS = [
     code: '214',
     name: 'Rebá Nirá',
     category: 'porcoes',
+    image: 'images/pratos/214-reba-nira.webp',
     price: 32.00,
     description: 'Fígado de frango com nirá.'
   },

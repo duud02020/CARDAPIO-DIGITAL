@@ -3,11 +3,11 @@
 <head> 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cardápio OISHI</title>
-  <meta name="description" content="Conheça as especialidades, ingredientes e preços do OISHI.">
-  <meta name="theme-color" content="#F7F3EE">
+  <title>Cardápio OISHII</title>
+  <meta name="description" content="Conheça as especialidades, ingredientes e preços do OISHII.">
+  <meta name="theme-color" content="#FBF4EB">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Cardápio OISHI">
+  <meta property="og:title" content="Cardápio OISHII">
   <meta property="og:description" content="Culinária japonesa artesanal. Conheça nossas especialidades, ingredientes e preços.">
   <link rel="icon" type="image/png" href="./images/oishi-logo-original.png">
   <link rel="stylesheet" href="./src/styles/main.css">
@@ -15,9 +15,9 @@
 <body>
   <header class="site-header">
     <div class="container header-inner">
-      <a href="#inicio" class="brand-link" aria-label="OISHI, início">
-        <span class="brand-flower" aria-hidden="true"><img src="./images/oishi-logo-original.png" width="115" height="121" alt=""></span>
-        <span class="brand-wordmark" aria-hidden="true"><img src="./images/oishi-logo-original.png" width="115" height="121" alt=""></span>
+      <a href="#inicio" class="brand-link" aria-label="OISHII, voltar ao início">
+        <span class="brand-mark"><img src="./images/oishi-logo-original.png" width="115" height="121" alt=""></span>
+        <span class="brand-copy"><strong>OISHII</strong><small>RAMEN &amp; IZAKAYA</small></span>
       </a>
       <nav class="category-nav" aria-label="Categorias do cardápio">
         <a href="#cardapio" data-category="todos">Todos</a>
@@ -31,9 +31,10 @@
   <main id="inicio">
     <section class="intro" aria-labelledby="page-title">
       <div class="container">
-        <h1 id="page-title">Cardápio OISHI</h1>
-        <p class="intro-subtitle">Culinária japonesa artesanal</p>
-        <p>Conheça nossas especialidades, ingredientes e preços.</p>
+        <span class="intro-eyebrow">おいしい · CULINÁRIA JAPONESA</span>
+        <h1 id="page-title">Nosso Cardápio</h1>
+        <p class="intro-subtitle">OISHII Ramen &amp; Izakaya</p>
+        <p>Sabores do Japão, feitos com cuidado. Explore nossas especialidades.</p>
         <form class="search-form" role="search">
           <label class="sr-only" for="search-input">Pesquisar pratos</label>
           <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5" stroke-linecap="round"/></svg>
@@ -53,11 +54,15 @@
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <strong>OISHI</strong>
+      <strong>OISHII</strong>
       <p>Cardápio digital para consulta.</p>
     </div>
   </footer>
 
+  <dialog class="dish-dialog" id="dish-dialog" aria-labelledby="dish-dialog-title">
+    <button class="dish-dialog-close" id="dish-dialog-close" aria-label="Fechar detalhes" type="button">&times;</button>
+    <div id="dish-dialog-content"></div>
+  </dialog>
   <script type="module" src="./src/main.js"></script>
 </body>
 </html>
