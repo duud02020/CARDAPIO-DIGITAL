@@ -246,28 +246,32 @@ export const MENU_ITEMS = [
     code: '243',
     name: 'Chiri Karê Potato',
     category: 'pratos-quentes',
-    price: 40.00,
-    description: 'Batata frita, chilli de carne bovina, feijão vermelho, curry japonês e mix de queijos.'
+    image: 'images/pratos/243-chiri-kare-potato.webp',
+    description: 'Batata frita, chili de carne bovina, feijão vermelho, curry japonês e mix de queijos.',
+    price: 40
   },
   {
     code: '216',
     name: 'Tonkatsu',
     category: 'pratos-quentes',
-    price: 53.00,
-    description: 'Lombo suíno empanado em panko, servido com salada de repolho e tomate.'
+    image: 'images/pratos/216-tonkatsu.webp',
+    description: 'Lombo suíno empanado em panko, servido com salada de repolho e tomate.',
+    price: 53
   },
   {
     code: '233',
     name: 'Butá Bará',
     category: 'pratos-quentes',
-    price: 52.00,
-    description: 'Pancetta assada glaceada no shoyu doce, com gohan, alface, alga nori e conserva de cebola roxa.'
+    image: 'images/pratos/233-buta-bara.webp',
+    description: 'Panceta assada glaceada no shoyu doce, com gohan, alface, alga nori e conserva de cebola roxa.',
+    price: 52
   },
   {
     code: '262',
     name: 'Yakiniku',
     category: 'pratos-quentes',
-    price: 60.00,
-    description: 'Carne bovina grelhada, servida com salada, farofinha de alho e molho especial.'
-  }
+    image: 'images/pratos/262-yakiniku.webp',
+    description: 'Carne bovina grelhada, servida com salada, farofinha de alho e molho especial.',
+    price: 60
+  },
 ];
